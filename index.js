@@ -17,14 +17,13 @@ Do the following:
 
    HINT: no function required
 */
-var votingAge = '18'
+var votingAge = 18
 if (votingAge > 18) {
 votingAge = "true"
-} else {
-  votingAge = "false"
 }
-console.log(votingAge)
 
+console.log(votingAge)
+return true
 
 /*
 Task 1b - Values
@@ -37,9 +36,11 @@ Do the following:
    HINT: no function required
 */
 
+var a = 2;
+var b = 4;
 
-
-
+return a = 4
+console.log(b = a)
 
 /*
 Task 1c - Convert Strings to Numbers
