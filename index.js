@@ -11,19 +11,18 @@ returns a value, that value will be logged to the console.  An example of this w
 /*
 Task 1a - Voting Age
 
-Do the following:   
-   1. Create a variable called votingAge and assign it a value
-   2. Console log true if age is 18 or higher
+// Do the following:   
+//    1. Create a variable called votingAge and assign it a value
+//    2. Console log true if age is 18 or higher
 
-   HINT: no function required
-*/
+//    HINT: no function required
+// */
 var votingAge = 18
 if (votingAge > 18) {
-votingAge = "true"
+  votingAge = "true"
 }
+console.log(true)
 
-console.log(votingAge)
-return true
 
 /*
 Task 1b - Values
@@ -35,12 +34,15 @@ Do the following:
 
    HINT: no function required
 */
-
 var a = 2;
 var b = 4;
 
-return a = 4
-console.log(b = a)
+switch (a, b) {
+    return(switch)
+    
+}
+  console.log(switch)
+
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -52,8 +54,11 @@ Do the following:
 
    HINT: look up the Number method
 */
-
-
+var str = "1999"
+parseInt("1999"); {
+  return(parseInt)
+}
+console.log(1999)
 
 
 /*
@@ -64,12 +69,13 @@ Do the following:
    2. Receive the parameters: a and b
    3. Multiply a and b and return the answer
 */
+var a = 2;
+var b = 4;
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b) {
+   return(a * b);
   }
-
-
+console.log(multiply)
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -81,11 +87,11 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(14){
+    return(x + 7)
+
 }
-
-
+console.log(dogYears)
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -114,7 +120,7 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
+function hungryDog(52 lbs){
     /*add your code here*/
   }
 
@@ -142,9 +148,19 @@ Use the game function below to do the following:
 */
 
 function game(user, computer){
-    /*add your code here*/
+  Math.floor(Math.random() * 2);
+  if (num = 2) {
+    result = "you win!";
+  } else if {
+    (num = 1) {
+      result = "you lose!";
+  } else {
+    (num = 0) {
+      result = "it's a tie";
+  }
+  return(game)
 }
-  
+  console.log(game)
   
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
